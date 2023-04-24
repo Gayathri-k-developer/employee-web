@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --primary-light: #0099cc;
+  --primary-main: #006699;
+  --secondary-main: #ff9900;
+  --secondary-light: #ffc266;
+  --subtitle-font: "Hind Madurai", sans-serif;
+  --title-font: "Merriweather Sans", sans-serif;
+  --default-font: "Rubik", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1900px;
+  margin: 0 auto;
+  background-color: #ffad3321;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: auto !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
